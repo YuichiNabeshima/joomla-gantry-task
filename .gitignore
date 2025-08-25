@@ -1,0 +1,28 @@
+# Joomla environment
+configuration.php
+
+# Cache and tmp
+/cache/
+/tmp/
+
+# Logs
+/logs/
+/administrator/logs/
+
+# Installation
+/installation/
+
+# User uploads (optional: adjust per project)
+ /images/
+
+# Dependencies
+/vendor/
+/node_modules/
+/composer.lock
+/package-lock.json
+
+# IDE / OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
