@@ -1,0 +1,114 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: home_-_particles
+  timestamp: 1756214967
+layout:
+  /navigation/: {  }
+  /header/: {  }
+  /intro/: {  }
+  features: {  }
+  /utility/: {  }
+  above: {  }
+  /testimonials/: {  }
+  /expanded/: {  }
+  /container-main/:
+    -
+      -
+        'mainbar 75':
+          -
+            - position-module-4541
+      -
+        'sidebar 25': {  }
+  footer: {  }
+  offcanvas: {  }
+structure:
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      variations: ''
+    inherit:
+      outline: '14'
+      include:
+        - children
+  header:
+    attributes:
+      boxed: ''
+      class: g-flushed
+      variations: ''
+  intro:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      variations: ''
+  features:
+    type: section
+    inherit:
+      outline: '15'
+      include:
+        - attributes
+        - block
+        - children
+  utility:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      variations: ''
+  above:
+    type: section
+    inherit:
+      outline: '15'
+      include:
+        - attributes
+        - block
+        - children
+  testimonials:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      variations: ''
+  expanded:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      variations: ''
+  mainbar:
+    type: section
+    subtype: main
+    attributes:
+      class: ''
+      variations: ''
+  sidebar:
+    type: section
+    subtype: aside
+    attributes:
+      class: ''
+      variations: ''
+  container-main:
+    attributes:
+      boxed: ''
+      class: ''
+      extra: {  }
+  footer:
+    inherit:
+      outline: '14'
+      include:
+        - attributes
+        - children
+  offcanvas:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+content:
+  position-module-4541:
+    title: 'Module Instance'
+    attributes:
+      module_id: '114'

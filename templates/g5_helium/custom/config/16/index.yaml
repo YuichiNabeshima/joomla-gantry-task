@@ -1,0 +1,71 @@
+name: 16
+timestamp: 1756318692
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: home_-_particles
+  timestamp: 1756214967
+positions:
+  whole-search: 'Module Position'
+sections:
+  navigation: Navigation
+  intro: Intro
+  features: Features
+  utility: Utility
+  above: Above
+  testimonials: Testimonials
+  expanded: Expanded
+  header: Header
+  mainbar: Mainbar
+  sidebar: Sidebar
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  module:
+    position-module-4541: 'Module Instance'
+  custom:
+    custom-7282: 'Custom HTML'
+    custom-3567: 'Custom HTML'
+    custom-6105: 'Custom HTML'
+    custom-7215: 'Custom HTML'
+    custom-5112: 'Custom HTML'
+    custom-2195: 'Custom HTML'
+    custom-9738: 'Custom HTML'
+  position:
+    position-position-8498: 'Module Position'
+  menu:
+    menu-5312: Menu
+  spacer:
+    spacer-7284: Spacer
+    spacer-4277: Spacer
+    spacer-1760: Spacer
+    spacer-1262: Spacer
+    spacer-4194: Spacer
+    spacer-1226: Spacer
+  mobile-menu:
+    mobile-menu-8020: Mobile-menu
+inherit:
+  14:
+    navigation: navigation
+    footer: footer
+    custom-7282: custom-8530
+    custom-3567: custom-2145
+    position-position-8498: position-position-6683
+    custom-6105: custom-3547
+    menu-5312: menu-6409
+    spacer-7284: spacer-9718
+    spacer-4277: spacer-1245
+    custom-7215: custom-6679
+    custom-5112: custom-8641
+    spacer-1760: spacer-6445
+    custom-2195: custom-8656
+    spacer-1262: spacer-8885
+    spacer-4194: spacer-4940
+    custom-9738: custom-7853
+    spacer-1226: spacer-3849
+  15:
+    features: features
+    above: above
+  default:
+    offcanvas: offcanvas
+    mobile-menu-8020: mobile-menu-5697

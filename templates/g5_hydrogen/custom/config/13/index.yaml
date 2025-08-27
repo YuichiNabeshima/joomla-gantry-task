@@ -1,0 +1,56 @@
+name: 13
+timestamp: 1756214811
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/home.png'
+  name: home
+  timestamp: 1756161326
+positions:
+  news-latest: 'Module Position'
+  header: Header
+sections:
+  header: Header
+  navigation: Navigation
+  showcase: Showcase
+  feature: Feature
+  subfeature: Subfeature
+  main: Main
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  menu:
+    menu-8358: Menu
+    menu-1166: Menu
+  sample:
+    sample-1: 'Gantry 5'
+    sample-2: 'Getting Started'
+    sample-3: 'Key Features'
+  messages:
+    system-messages-8204: 'System Messages'
+  position:
+    position-position-8325: 'Module Position'
+    position-position-5576: Header
+  mobile-menu:
+    mobile-menu-8942: 'Mobile Menu'
+  custom:
+    custom-6738: 'Custom HTML'
+    custom-6834: 'Custom HTML'
+    custom-8743: 'Custom HTML'
+    custom-9213: 'Custom HTML'
+  spacer:
+    spacer-4104: Spacer
+    spacer-6839: Spacer
+    spacer-8124: Spacer
+inherit:
+  12:
+    header: header
+    footer: footer
+    custom-6738: custom-6313
+    custom-6834: custom-7672
+    spacer-4104: spacer-4994
+    custom-8743: custom-3310
+    menu-1166: menu-8229
+    position-position-5576: position-header
+    spacer-6839: spacer-6976
+    custom-9213: custom-4860
+    spacer-8124: spacer-2789

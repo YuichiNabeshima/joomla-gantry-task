@@ -1,0 +1,174 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1756214967
+layout:
+  /navigation/:
+    -
+      - 'custom-8530 30'
+      - 'custom-2145 30'
+      - 'position-position-6683 40'
+    -
+      - 'custom-3547 20'
+      - 'menu-6409 65'
+      - 'spacer-9718 14.9'
+  /header/: {  }
+  /intro/: {  }
+  /features/: {  }
+  /utility/: {  }
+  /above/: {  }
+  /testimonials/: {  }
+  /expanded/: {  }
+  /container-main/:
+    -
+      -
+        'aside 25':
+          -
+            - position-position-4734
+      -
+        'mainbar 50':
+          -
+            - system-content-1587
+      -
+        'sidebar 25':
+          -
+            - position-position-3949
+  /footer/:
+    -
+      - 'spacer-1245 17'
+      - 'custom-6679 17'
+      - 'custom-8641 17'
+      - 'spacer-6445 12'
+      - 'custom-8656 22'
+      - 'spacer-8885 15.2'
+    -
+      - 'spacer-4940 17'
+      - 'custom-7853 68'
+      - 'spacer-3849 14.9'
+  /offcanvas/:
+    -
+      - mobile-menu-5697
+structure:
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+  header:
+    attributes:
+      boxed: ''
+      class: ''
+  intro:
+    type: section
+    attributes:
+      boxed: ''
+  features:
+    type: section
+    attributes:
+      boxed: ''
+  utility:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+  above:
+    type: section
+    attributes:
+      boxed: ''
+  testimonials:
+    type: section
+    attributes:
+      boxed: ''
+  expanded:
+    type: section
+    attributes:
+      boxed: ''
+  aside:
+    attributes:
+      class: ''
+    block:
+      fixed: '1'
+  mainbar:
+    type: section
+    subtype: main
+  sidebar:
+    type: section
+    subtype: aside
+    attributes:
+      class: ''
+    block:
+      fixed: '1'
+  container-main:
+    attributes:
+      boxed: ''
+  footer:
+    attributes:
+      boxed: ''
+      class: g-flushed
+      variations: ''
+  offcanvas:
+    attributes:
+      boxed: ''
+content:
+  custom-8530:
+    title: 'Custom HTML'
+    attributes:
+      html: '<p><span id="ticker">CSE: KUYA | OTCQB: KUYAF | FRA: 6MR1</span></p>'
+    block:
+      id: whole-ticker
+      class: 'ticker bkg-orange custom'
+      variations: align-right
+  custom-2145:
+    title: 'Custom HTML'
+    attributes:
+      html: "<div id=\"social-7075-particle\" class=\"g-content g-particle\">            <div class=\"g-social bkg-orange hidden-phone\">\n                                            <a href=\"https://www.facebook.com/kuyasilvercorp/\" target=\"_blank\" rel=\"noopener noreferrer\">\n                <span class=\"fa fa-facebook fa-f\"></span>                <span class=\"g-social-text\"></span>            </a>\n                                            <a href=\"https://www.linkedin.com/company/kuya-silver/\" target=\"_blank\" rel=\"noopener noreferrer\">\n                <span class=\"fa fa-linkedin\"></span>                <span class=\"g-social-text\"></span>            </a>\n                                            <a href=\"https://twitter.com/KuyaSilver\" target=\"_blank\" rel=\"noopener noreferrer\">\n<img src=\"/templates/g5_helium/custom/images/X_logo_-1.png\" class=\"twitter-logo\" width=\"18\" height=\"18\">          </a>\n                                            <a href=\"https://www.instagram.com/KuyaSilverCorp/\" target=\"_blank\" rel=\"noopener noreferrer\">\n                <span class=\"fa fa-instagram fa-fw\"></span>                <span class=\"g-social-text\"></span>            </a>\n                                            <a href=\"https://www.youtube.com/channel/UCc7YU27yR9RLHdG-frVAuxg\" target=\"_blank\" rel=\"noopener noreferrer\">\n                <span class=\"fa fa-youtube-play\"></span>                <span class=\"g-social-text\"></span>            </a>\n            </div>\n         </div>"
+    block:
+      class: social-links
+  position-position-6683:
+    title: 'Module Position'
+    attributes:
+      key: whole-search
+    block:
+      id: whole-search
+      class: 'search bkg-orange'
+      variations: align-right
+  custom-3547:
+    title: 'Custom HTML'
+    attributes:
+      html: '<div id="navbar-logo"><a href="/index.php" rel="home" class="custom-logo-link" aria-current="page"><img src="/templates/g5_helium/custom/images/Kuya_Silver_Logo.png" alt="Kuya_Silver_Logo.png" width="264" height="107"></a></div>'
+    block:
+      class: logolink
+  menu-6409:
+    block:
+      class: main-menu
+      variations: align-right
+  position-position-4734:
+    title: Aside
+    attributes:
+      key: aside
+  position-position-3949:
+    title: Sidebar
+    attributes:
+      key: sidebar
+  custom-6679:
+    title: 'Custom HTML'
+    attributes:
+      html: "    <p><span class=\"footer-block-title\">HEAD OFFICE</span></p>\n<p><span class=\"footer-block-content\"><span class=\"footer-block-content\"></span></span></p>\n<p>150 King Street West<br>Suite 200</p>\n<p><span class=\"footer-block-content\"><span class=\"footer-block-content\"></span></span></p>\n<p>Toronto, ON<br>M5H 1J9</p>"
+    block:
+      class: custom
+  custom-8641:
+    title: 'Custom HTML'
+    attributes:
+      html: "    <p><span class=\"footer-block-title\">CONTACT</span></p>\n<p><span class=\"footer-block-content\"><span class=\"footer-block-content\"></span></span></p>\n<p>(604) 398 4493</p>\n<p><span class=\"footer-block-content\"><span class=\"footer-block-content\"></span></span></p>\n<p>Email: <a href=\"mailto:info@kuyasilver.com?to=info2@kuyasilver.com\">info@kuyasilver.com</a></p>\n<div id=\"awebChromeHelper\">&nbsp;</div>"
+    block:
+      class: custom
+  custom-8656:
+    title: 'Custom HTML'
+    attributes:
+      html: "    <p><span class=\"footer-block-title\">WE ARE SOCIAL</span></p>\n<div id=\"footer-social\">\n<div class=\"g-social social\"><a href=\"https://www.facebook.com/kuyasilvercorp/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #fff;\"> <span class=\"fa fa-facebook\"></span> </a> <a href=\"https://www.linkedin.com/company/kuya-silver/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #fff;\" title=\"Linked-In\" aria-label=\"Linked-In\"> <span class=\"fa fa-linkedin\"></span> </a> <a href=\"https://twitter.com/KuyaSilver\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #fff;\" title=\"Twitter\" aria-label=\"Twitter\"> <img src=\"/templates/g5_helium/custom/images/X_logo_2023_original.png\" class=\"twitter-logo\"></a> <a href=\"https://www.instagram.com/KuyaSilverCorp/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #fff;\" title=\"Instagram\" aria-label=\"Instagram\"> <span class=\"fa fa-instagram\"></span> </a> <a href=\"https://www.youtube.com/channel/UCc7YU27yR9RLHdG-frVAuxg\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: #fff;\" title=\"YouTube\" aria-label=\"YouTube\"> <span class=\"fa fa-youtube-play\"></span> </a></div>\n</div>\n<div id=\"awebChromeHelper\">&nbsp;</div>"
+    block:
+      class: 'footer-social custom'
+  custom-7853:
+    title: 'Custom HTML'
+    attributes:
+      html: "<div id=\"link-container\" style=\"display: flex; flex-flow: row wrap; item-align: center; justify-content: space-between;\">\n<div id=\"scm-link\" style=\"max-width: 45ch;\">\n<p><a href=\"https://savecanadianmining.com/\" target=\"_blank\" rel=\"noopener\"><img src=\"/templates/g5_helium/custom/images/scm_logo.png\" alt=\"scm logo\" width=\"66\" height=\"85\"></a></p>\n<p>Click on the logo to understand why Canadian junior miners need your help to stop predatory short selling.</p>\n</div>\n<div id=\"privacy-policy\">\n<p style=\"text-align: center;\"><a href=\"/privacy-policy\" target=\"_self\" style=\"color:#fff;\">PRIVACY POLICY</a></p>\n</div>\n</div>"

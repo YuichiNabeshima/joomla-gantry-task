@@ -1,0 +1,53 @@
+.g-social a,
+.g-social a::before,
+.g-social a::after,
+.g-social a *::before,
+.g-social a *::after {
+  background: none !important;
+  background-image: none !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  content: none !important;
+}
+
+/* Facebook */
+.g-social a .fa.fa-facebook::before {
+  content: "\f39e" !important; /* fa-facebook-f */
+  font-family: "Font Awesome 6 Brands","Font Awesome 5 Brands","FontAwesome" !important;
+  font-weight: 400 !important;
+  color: #fff !important;
+}
+
+/* LinkedIn */
+.g-social a .fa.fa-linkedin::before {
+  content: "\f0e1" !important; /* fa-linkedin-in */
+  font-family: "Font Awesome 6 Brands","Font Awesome 5 Brands","FontAwesome" !important;
+  font-weight: 400 !important;
+  color: #fff !important;
+}
+
+/* Twitter / X */
+.g-social a .fa.fa-twitter::before,
+.g-social a .fa.fa-x-twitter::before {
+  content: "\e61b" !important ; /* fa-x-twitter (FA6) */
+  font-family: "Font Awesome 6 Brands","Font Awesome 5 Brands","FontAwesome" !important;
+  font-weight: 400 !important;
+  color: #fff !important;
+}
+
+/* Instagram */
+.g-social a .fa.fa-instagram::before {
+  content: "\f16d" !important; /* fa-instagram */
+  font-family: "Font Awesome 6 Brands","Font Awesome 5 Brands","FontAwesome" !important;
+  font-weight: 400 !important;
+  color: #fff !important;
+}
+
+/* YouTube */
+.g-social a .fa.fa-youtube::before {
+  content: "\f167" !important; /* fa-youtube */
+  font-family: "Font Awesome 6 Brands","Font Awesome 5 Brands","FontAwesome" !important;
+  font-weight: 400 !important;
+  color: #fff !important;
+}

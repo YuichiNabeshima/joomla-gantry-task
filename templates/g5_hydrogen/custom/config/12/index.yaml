@@ -1,0 +1,39 @@
+name: '12'
+timestamp: 1756214811
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/2-col-left.png'
+  name: 2_column_-_left
+  timestamp: 1756161326
+positions:
+  header: Header
+  breadcrumbs: Breadcrumbs
+sections:
+  header: Header
+  navigation: Navigation
+  main: Main
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  custom:
+    custom-6313: 'Custom HTML'
+    custom-7672: 'Custom HTML'
+    custom-3310: 'Custom HTML'
+    custom-4860: 'Custom HTML'
+  spacer:
+    spacer-4994: Spacer
+    spacer-6976: Spacer
+    spacer-2789: Spacer
+  menu:
+    menu-8229: Menu
+    menu-8187: Menu
+  position:
+    position-header: Header
+    position-breadcrumbs: Breadcrumbs
+  messages:
+    system-messages-4963: 'System Messages'
+  content:
+    system-content-9201: 'Page Content'
+  mobile-menu:
+    mobile-menu-1056: Mobile-menu
+inherit: {  }

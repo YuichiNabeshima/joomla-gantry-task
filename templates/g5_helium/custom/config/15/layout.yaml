@@ -1,0 +1,142 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: home_-_particles
+  timestamp: 1756214967
+layout:
+  /navigation/: {  }
+  /header/:
+    -
+      - custom-3833
+    -
+      - custom-8482
+  /intro/:
+    -
+      - custom-5807
+    -
+      - custom-2749
+  /features/: {  }
+  /utility/:
+    -
+      - custom-7059
+  /above/: {  }
+  /testimonials/:
+    -
+      - custom-7658
+  /expanded/:
+    -
+      - position-position-5352
+    -
+      - custom-9183
+  /container-main/:
+    -
+      -
+        'mainbar 75': {  }
+      -
+        'sidebar 25': {  }
+  footer: {  }
+  offcanvas: {  }
+structure:
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      variations: ''
+    inherit:
+      outline: '14'
+      include:
+        - children
+  header:
+    attributes:
+      boxed: ''
+      class: g-flushed
+  intro:
+    type: section
+    attributes:
+      boxed: ''
+  features:
+    type: section
+    attributes:
+      boxed: ''
+  utility:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+  above:
+    type: section
+    attributes:
+      boxed: ''
+  testimonials:
+    type: section
+    attributes:
+      boxed: ''
+  expanded:
+    type: section
+    attributes:
+      boxed: ''
+  mainbar:
+    type: section
+    subtype: main
+  sidebar:
+    type: section
+    subtype: aside
+  container-main:
+    attributes:
+      boxed: ''
+  footer:
+    inherit:
+      outline: '14'
+      include:
+        - attributes
+        - children
+  offcanvas:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+content:
+  custom-3833:
+    title: 'Custom HTML'
+    attributes:
+      html: "<section class=\"home-hero-video\">\n<div class=\"video-content-wrapper\">\n<div class=\"container clearfix\">\n<div class=\"row\">\n<div class=\"col-md-12\">\n<div class=\"hero-inner-holder text-center\"><header class=\"entry-header hero-title-header text-center\">\n<h1 style=\"font-weight: 100;\">Building the Next High-Margin<br>Silver Mining Company</h1>\n</header><!-- .entry-header --></div>\n<!-- /.hero-inner-holder --></div>\n<!-- .end-col --></div>\n<!-- .end-row --></div>\n</div>\n<div class=\"fv-hero\"><img src=\"/templates/g5_helium/custom/images/Kuya-home-banner-01.jpg\" alt=\"home banner\"></div>\n</section>"
+    block:
+      class: herovideo
+  custom-8482:
+    title: 'Custom HTML'
+    attributes:
+      html: "<div class=\"home-signup\">\n<h2>Subscribe to Our Email List</h2>\n<a href=\"/contact/sign-up-sandman-form\">SIGN UP</a></div>"
+  custom-5807:
+    title: Intro
+    attributes:
+      html: '<h2 class="expanding" style="margin: 0 auto; text-align: center; max-width: 60ch; color: #ad3034;">Developing Two High-Grade District Scale Silver Projects <br>within Historic Mining Camps of Canada and Peru</h2>'
+    block:
+      class: custom
+      variations: center
+  custom-2749:
+    title: 'Custom HTML'
+    attributes:
+      html: "<div id=\"company-highlights-wrapper\">\n<h2 style=\"text-align: center;\">Company Highlights</h2>\n<ul style=\"list-style-type: none;\">\n<li class=\"highlight\"><a href=\"/project\" target=\"_self\"> <span class=\"highlights\">HIGH-GRADE SILVER</span> </a></li>\n<li class=\"highlight\"><a href=\"/project\" target=\"_self\"> <span class=\"highlights\">PAST PRODUCER</span> </a></li>\n<li class=\"highlight\"><a href=\"/project\" target=\"_self\"> <span class=\"highlights\">LOW CAPEX</span> </a></li>\n<li class=\"highlight\"><span style=\"color: #000000;\"><a href=\"/corporate/leadership\" target=\"_self\" style=\"color: #000000;\"> <span class=\"highlights\">EXPERIENCED MANAGEMENT</span> </a></span></li>\n</ul>\n</div>"
+  custom-7059:
+    title: 'Custom HTML'
+    attributes:
+      html: "<div id=\"project-container\">\n  <div id=\"projects-bethania\">\n  <div>\n  <p>The Bethania Silver Project, located in Central Peru, is ramping up production and generates revenue through the sale of silver-rich concentrates. The project encompasses the contiguous 4,500-ha Bethania Silver district which includes the Bethania silver mine, Carmelitas, Tito PH and Millococha prospects. The area is accessible year-round via a 4 hour drive from the city of Huancayo. Now that the mine has commenced production, Kuya's focus is to increase production, add infrastructure to improve efficiency and aggressively drill the mine area and other past producing silver prospects to grow the resource base.</p>\n  <a href=\"/templates/g5_helium/custom/images/pdf/presentation/2025/Kuya_Silver_June_2025.pdf\" target=\"_blank\">Corporate Presentation</a></div>\n  <h2>BETHANIA</h2>\n  </div>\n  <!-- #hwb-image -->\n  <div id=\"projects-silver-king\">\n  <div>\n  <p>The Silver Kings Project is located in Northern Ontario’s most prolific silver mining camp, situated near the historic mining town of Cobalt, Ontario. The Project encompasses 13,000 hectares and is host to approximately 1/6 of total historic silver production from the Cobalt and Silver Centre mining camps. Kuya has developed a new exploration model leading to the grass roots Campbell-Crawford discovery, highlighted by the discovery hole intersecting 15,372 g/t (494 oz/t) silver over 3.34 m (23-SK-08)</p>\n  <a href=\"/templates/g5_helium/custom/images/pdf/presentation/2025/Kuya_Silver_June_2025.pdf\" target=\"_blank\">Corporate Presentation</a></div>\n  <h2>SILVER KINGS</h2>\n  </div>\n  </div>"
+  custom-7658:
+    title: 'Customer Testimonials'
+    attributes:
+      html: "<div id=\"modal-vid-trigger-holder\">\n<div id=\"modal-vid-trigger\" style=\"padding: 4rem;\">\n<h2 style=\"color: #fff; text-align: center; font-weight: 900;\">Kuya Silver: Bethania Silver Mine Q2 2025 Update</h2>\n<p class=\"hide-mob\" style=\"color: #fff; text-align: center; font-weight: 400;\">CEO, David Stein, provides the latest production and exploration updates from the company's flagship project</p>\n<p style=\"color: #fff; text-align: center; font-weight: 400;\"><!-- START: Modals --><a data-modals=\"\" href=\"https://www.youtube.com/embed/W4uhrqtSTLA?si=QXY3ke-Ao9s2NcBX&amp;wmode=transparent\" title=\"Kuya Silver\" data-modals-height=\"315\" data-modals-title=\"Kuya Silver\" data-modals-width=\"560\" data-modals-group=\"_group_0\" data-modals-done=\"true\"><img src=\"/templates/g5_helium/custom/images/play-button-red-70.png\" alt=\"\" class=\"img-videp\"></a><!-- END: Modals --></p>\n</div>\n<!--ends #modal-vid-trigger --></div>"
+    block:
+      id: meet-kuya
+      variations: center
+  position-position-5352:
+    title: 'Module Position'
+    attributes:
+      key: news-latest
+    block:
+      class: latest-news
+  custom-9183:
+    title: 'Custom HTML'
+    attributes:
+      html: "<div id=\"new-investor-materials-wrapper\">\n<div id=\"corporate-presentation\" class=\"pres-card\">\n<h4 class=\"pres-heading\">Corporate Presentation</h4>\n<p style=\"text-align: center;\"><a href=\"/images/pdf/presentation/2025/Kuya_Silver_June_2025.pdf\" target=\"_blank\">Download &gt;&gt;</a></p>\n</div>\n<div id=\"bethania-silver-mine-summary\" class=\"pres-card\">\n<h4 class=\"pres-heading\">Kuya Silver Overview</h4>\n<p style=\"text-align: center;\"><a href=\"/images/pdf/Fact-Sheet/2025/Kuya-Factsheet-June3.pdf_1_1.pdf\" target=\"_blank\">Download &gt;&gt;</a></p>\n</div>\n<div id=\"technical-report\" class=\"pres-card\">\n<h4 class=\"pres-heading\">Preliminary Economic Assessment</h4>\n<p style=\"text-align: center;\"><a href=\"/images/pdf/KUYA_Bethania_Silver_Project_-_NI_43-101_Amended_and_Restated_Technical_Report_PEA_October_20_2023.pdf\" target=\"_blank\">Download &gt;&gt;</a></p>\n</div>\n<div id=\"bethania-plant-animation\" class=\"pres-card\">\n<h4 class=\"pres-heading\">Kuya Silver Media</h4>\n<p style=\"text-align: center;\"><a href=\"/investor/media\" target=\"_blank\" rel=\"noopener\"><img src=\"/images/fp-decor/play-button-red-70.png\" alt=\"\"></a></p>\n</div>\n</div>\n<div id=\"awebChromeHelper\">&nbsp;</div>\n<div id=\"awebChromeHelper\">&nbsp;</div>"

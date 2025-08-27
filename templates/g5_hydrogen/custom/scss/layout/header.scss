@@ -1,0 +1,34 @@
+@import '../common/variable.scss';
+
+#g-header {
+  .g-container {
+    width: 100%;
+  }
+
+  .g-grid {
+    &:first-child {
+      height: 38px;
+
+      .g-content {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+      }
+    }
+  }
+
+  .header-upper-left {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+  }
+
+  .g-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+  }
+}

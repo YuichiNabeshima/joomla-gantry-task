@@ -1,0 +1,81 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/2-col-left.png'
+  name: 2_column_-_left
+  timestamp: 1756161326
+layout:
+  /header/:
+    -
+      - 'custom-6313 30'
+      - 'custom-7672 30'
+      - 'spacer-4994 39.9'
+    -
+      - 'custom-3310 20'
+      - 'menu-8229 65'
+      - 'position-header 14.9'
+  /navigation/:
+    -
+      - menu-8187
+  /main/:
+    -
+      - position-breadcrumbs
+    -
+      - system-messages-4963
+    -
+      - system-content-9201
+  /footer/:
+    -
+      - 'spacer-6976 33.3'
+      - 'custom-4860 33.3'
+      - 'spacer-2789 33.3'
+  offcanvas:
+    -
+      - mobile-menu-1056
+structure:
+  header:
+    attributes:
+      boxed: ''
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+  main:
+    attributes:
+      boxed: ''
+  footer:
+    attributes:
+      boxed: ''
+content:
+  custom-6313:
+    title: 'Custom HTML'
+    attributes:
+      html: '<div class="header-upper-left">CSE: KUYA | OTCQB: KUYAF | FRA: 6MR</div>'
+    block:
+      class: bg-orange
+      variations: align-right
+  custom-7672:
+    title: 'Custom HTML'
+    attributes:
+      html: "<div class=\"g-social bkg-orange hidden-phone\">\n                                            <a href=\"https://www.facebook.com/kuyasilvercorp/\" target=\"_blank\" rel=\"noopener noreferrer\">\n                <span class=\"fa fa-facebook fa-f\"></span>                <span class=\"g-social-text\"></span>            </a>\n                                            <a href=\"https://www.linkedin.com/company/kuya-silver/\" target=\"_blank\" rel=\"noopener noreferrer\">\n                <span class=\"fa fa-linkedin\"></span>                <span class=\"g-social-text\"></span>            </a>\n                                            <a href=\"https://twitter.com/KuyaSilver\" target=\"_blank\" rel=\"noopener noreferrer\">\n<img src=\"/templates/g5_hydrogen/custom/images/X_logo_-1.png\" class=\"twitter-logo\" width=\"18\" height=\"18\">          </a>\n                                            <a href=\"https://www.instagram.com/KuyaSilverCorp/\" target=\"_blank\" rel=\"noopener noreferrer\">\n                <span class=\"fa fa-instagram fa-fw\"></span>                <span class=\"g-social-text\"></span>            </a>\n                                            <a href=\"https://www.youtube.com/channel/UCc7YU27yR9RLHdG-frVAuxg\" target=\"_blank\" rel=\"noopener noreferrer\">\n                <span class=\"fa fa-youtube\"></span>                <span class=\"g-social-text\"></span>            </a>\n            </div>"
+    block:
+      class: bg-orange
+  spacer-4994:
+    block:
+      class: bg-orange
+  custom-3310:
+    title: 'Custom HTML'
+    attributes:
+      html: '<div id="navbar-logo"><a href="/index.php" rel="home" class="custom-logo-link" aria-current="page"><img src="/templates/g5_hydrogen/custom/images/Kuya_Silver_Logo.png" alt="Kuya_Silver_Logo.png" width="264" height="107"></a></div>'
+  position-header:
+    attributes:
+      key: header
+  position-breadcrumbs:
+    attributes:
+      key: breadcrumbs
+  custom-4860:
+    title: 'Custom HTML'
+    attributes:
+      html: '<div class="test">yuichi</div>'
+    block:
+      id: footer-address
+      class: footer-address
